@@ -7,7 +7,7 @@ const cors = require('cors');
 app.use(morgan('dev'));
 app.use(cors());
 
-app.use(reuire('./routes/users'));
+app.use(require('./routes/users'));
 
 module.exports = app;
 
