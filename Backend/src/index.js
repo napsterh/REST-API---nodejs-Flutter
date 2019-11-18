@@ -6,7 +6,7 @@ async function main(){
     await connect();
     //express application
     await app.listen(4000);
-    console.log('Servidor en el puerto 4000: Conectado');
+    console.log('Servidor Conectado en el puerto 4000');
 }
 
 main();
