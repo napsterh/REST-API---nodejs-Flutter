@@ -4,7 +4,7 @@ async function connect(){
     await mongoose.connect('mongodb://localhost/node-flutter-tutorial', {
         useNewUrlParser: true
     });
-    console.log('base de datos conectado');
+    console.log('Base de datos conectado');
 };
 
 module.exports = { connect };
